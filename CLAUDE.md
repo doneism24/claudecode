@@ -4,7 +4,19 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository
 
-This is a fresh repository with no project files yet. Add project-specific build, test, and lint commands here as the project evolves.
+A [Remotion](https://www.remotion.dev) project (React-based programmatic video creation), scaffolded from the `blank` template.
+
+- `src/Root.tsx` registers compositions; `src/Composition.tsx` holds the `MyComposition`/`MyComponent` starter.
+- `src/index.ts` is the entry point (`registerRoot`).
+- `remotion.config.ts` holds bundler/CLI config.
+
+### Commands
+
+- `npm install` — install dependencies
+- `npm run dev` — open Remotion Studio (preview/editor)
+- `npm run build` — bundle the project (`remotion bundle`)
+- `npx remotion render` — render a video
+- `npm run lint` — eslint + tsc typecheck
 
 ## Git Workflow
 
