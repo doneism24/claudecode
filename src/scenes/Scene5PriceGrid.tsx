@@ -90,6 +90,7 @@ export const Scene5PriceGrid: React.FC = () => {
                   color: PAPER,
                   opacity: titleOpacity,
                   minHeight: 132,
+                  textAlign: "center",
                 }}
               >
                 {card.title}
@@ -116,6 +117,7 @@ export const Scene5PriceGrid: React.FC = () => {
                       transform: `translateY(${rowY}px)`,
                       padding: "22px 0",
                       borderBottom: `1px solid ${RULE2}`,
+                      textAlign: "center",
                     }}
                   >
                     <div
