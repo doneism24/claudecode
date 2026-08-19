@@ -11,7 +11,7 @@ export const PRETENDARD = "Pretendard";
 
 export const HANDLE = "@BIGBROX.SANGDO";
 export const TAGLINE = "HYROX × BOXING × RECOVERY";
-export const OPEN_DATE = "8월 말 오픈";
+export const OPEN_DATE = "8월 말";
 export const ADDRESS = "상도로 242 B1";
 
 export const MARGIN = 72;

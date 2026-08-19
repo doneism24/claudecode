@@ -79,9 +79,9 @@ export const Scene2Identity: React.FC = () => {
           transform: `translateY(${headlineY}px)`,
         }}
       >
-        하이브리드 트레이닝이
+        상도동에 최고의
         <br />
-        상도동에 시작됩니다
+        하이브리드 체육관이 곧 옵니다
       </div>
     </AbsoluteFill>
   );

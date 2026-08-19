@@ -1,14 +1,14 @@
 import React from "react";
 import { AbsoluteFill, interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
-import { XMark } from "../brand/components";
+import { Wordmark } from "../brand/components";
 import { SIGNAL, VOID } from "../brand/tokens";
 
 export const Scene1Hook: React.FC = () => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
 
-  const markScale = spring({ frame, fps, config: { damping: 14, mass: 0.6 } });
-  const markOpacity = interpolate(frame, [0, 10], [0, 1], {
+  const wordmarkScale = spring({ frame, fps, config: { damping: 14, mass: 0.6 } });
+  const wordmarkOpacity = interpolate(frame, [0, 10], [0, 1], {
     extrapolateRight: "clamp",
   });
 
@@ -25,13 +25,14 @@ export const Scene1Hook: React.FC = () => {
 
   return (
     <AbsoluteFill style={{ background: VOID, alignItems: "center", justifyContent: "center" }}>
-      <XMark
-        size={460}
+      <div
         style={{
-          transform: `scale(${markScale})`,
-          opacity: markOpacity,
+          transform: `scale(${wordmarkScale})`,
+          opacity: wordmarkOpacity,
         }}
-      />
+      >
+        <Wordmark size={114} />
+      </div>
       <div
         style={{
           position: "absolute",

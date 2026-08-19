@@ -81,7 +81,7 @@ export const Scene4Offer: React.FC = () => {
           opacity: captionOpacity,
         }}
       >
-        오픈 이후에는 적용되지 않습니다
+        오픈 이후 가격이 인상됩니다
       </div>
     </AbsoluteFill>
   );

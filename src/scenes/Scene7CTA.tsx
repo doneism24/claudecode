@@ -72,7 +72,7 @@ export const Scene7CTA: React.FC = () => {
       </div>
 
       <div style={{ opacity: chipOpacity, marginTop: 6 }}>
-        <Chip fontSize={31}>프로필 링크에서 신청 가능합니다</Chip>
+        <Chip fontSize={31}>프로필 링크에서 프리세일 신청</Chip>
       </div>
 
       <div
@@ -86,7 +86,7 @@ export const Scene7CTA: React.FC = () => {
           textAlign: "center",
         }}
       >
-        {OPEN_DATE}, 상도동에서 시작합니다
+        {OPEN_DATE}, 오픈예정
       </div>
 
       <div
