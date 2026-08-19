@@ -46,7 +46,7 @@ export const Scene6Recap: React.FC = () => {
           style={{
             fontFamily: PRETENDARD,
             fontWeight: 800,
-            fontSize: 44,
+            fontSize: 50,
             color: PAPER,
           }}
         >
@@ -55,7 +55,7 @@ export const Scene6Recap: React.FC = () => {
         <div
           style={{
             fontFamily: ANTON,
-            fontSize: 170,
+            fontSize: 192,
             color: SIGNAL,
             lineHeight: 1,
           }}
@@ -64,14 +64,14 @@ export const Scene6Recap: React.FC = () => {
         </div>
       </div>
       <div style={{ opacity: chipOpacity }}>
-        <Chip fontSize={28}>락커 무료</Chip>
+        <Chip fontSize={31}>락커 무료</Chip>
       </div>
       <div
         style={{
           marginTop: 20,
           fontFamily: PRETENDARD,
           fontWeight: 600,
-          fontSize: 26,
+          fontSize: 29,
           color: MUTED,
           opacity: lineOpacity,
           textAlign: "center",

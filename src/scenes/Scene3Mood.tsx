@@ -40,7 +40,7 @@ export const Scene3Mood: React.FC = () => {
         <div
           style={{
             fontFamily: ANTON,
-            fontSize: 110,
+            fontSize: 124,
             letterSpacing: 2,
             color: PAPER,
           }}
@@ -51,7 +51,7 @@ export const Scene3Mood: React.FC = () => {
           style={{
             fontFamily: PRETENDARD,
             fontWeight: 600,
-            fontSize: 28,
+            fontSize: 31,
             letterSpacing: 4,
             color: MUTED,
           }}

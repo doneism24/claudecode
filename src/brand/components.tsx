@@ -94,7 +94,7 @@ export const Kicker: React.FC<{ children: React.ReactNode }> = ({
     style={{
       fontFamily: PRETENDARD,
       fontWeight: 700,
-      fontSize: 22,
+      fontSize: 24,
       letterSpacing: 4,
       color: MUTED,
       textTransform: "uppercase",
@@ -109,7 +109,7 @@ export const Chip: React.FC<{
   fg?: string;
   bg?: string;
   fontSize?: number;
-}> = ({ children, fg = VOID, bg = SIGNAL, fontSize = 26 }) => (
+}> = ({ children, fg = VOID, bg = SIGNAL, fontSize = 29 }) => (
   <div
     style={{
       display: "inline-block",

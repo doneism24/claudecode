@@ -85,7 +85,7 @@ export const Scene5PriceGrid: React.FC = () => {
                 style={{
                   fontFamily: PRETENDARD,
                   fontWeight: 800,
-                  fontSize: 27,
+                  fontSize: 30,
                   lineHeight: 1.25,
                   color: PAPER,
                   opacity: titleOpacity,
@@ -122,7 +122,7 @@ export const Scene5PriceGrid: React.FC = () => {
                       style={{
                         fontFamily: PRETENDARD,
                         fontWeight: 600,
-                        fontSize: 19,
+                        fontSize: 21,
                         color: MUTED,
                         marginBottom: 6,
                       }}
@@ -133,7 +133,7 @@ export const Scene5PriceGrid: React.FC = () => {
                       style={{
                         fontFamily: PRETENDARD,
                         fontWeight: 900,
-                        fontSize: 32,
+                        fontSize: 35,
                         color: PAPER,
                       }}
                     >
@@ -156,7 +156,7 @@ export const Scene5PriceGrid: React.FC = () => {
           textAlign: "center",
           fontFamily: PRETENDARD,
           fontWeight: 600,
-          fontSize: 26,
+          fontSize: 29,
           color: MUTED,
           opacity: footerOpacity,
         }}

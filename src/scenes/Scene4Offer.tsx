@@ -40,7 +40,7 @@ export const Scene4Offer: React.FC = () => {
         style={{
           fontFamily: PRETENDARD,
           fontWeight: 700,
-          fontSize: 30,
+          fontSize: 34,
           letterSpacing: 2,
           color: MUTED,
           opacity: labelOpacity,
@@ -51,7 +51,7 @@ export const Scene4Offer: React.FC = () => {
       <div
         style={{
           fontFamily: ANTON,
-          fontSize: 260,
+          fontSize: 292,
           lineHeight: 1,
           color: SIGNAL,
           opacity: numberOpacity,
@@ -63,7 +63,7 @@ export const Scene4Offer: React.FC = () => {
         style={{
           fontFamily: PRETENDARD,
           fontWeight: 700,
-          fontSize: 30,
+          fontSize: 34,
           letterSpacing: 2,
           color: PAPER,
           opacity: labelOpacity,
@@ -76,7 +76,7 @@ export const Scene4Offer: React.FC = () => {
           marginTop: 40,
           fontFamily: PRETENDARD,
           fontWeight: 600,
-          fontSize: 26,
+          fontSize: 29,
           color: MUTED,
           opacity: captionOpacity,
         }}

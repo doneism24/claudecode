@@ -47,13 +47,13 @@ export const Scene2Identity: React.FC = () => {
             transform: `translateY(${wordmarkY}px)`,
           }}
         >
-          <Wordmark size={110} />
+          <Wordmark size={126} />
         </div>
         <div
           style={{
             fontFamily: PRETENDARD,
             fontWeight: 600,
-            fontSize: 24,
+            fontSize: 27,
             letterSpacing: 3,
             color: DIM,
             opacity: taglineOpacity,
@@ -72,7 +72,7 @@ export const Scene2Identity: React.FC = () => {
           textAlign: "center",
           fontFamily: PRETENDARD,
           fontWeight: 900,
-          fontSize: 56,
+          fontSize: 64,
           lineHeight: 1.3,
           color: PAPER,
           opacity: headlineOpacity,

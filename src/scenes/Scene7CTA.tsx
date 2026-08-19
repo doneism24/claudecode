@@ -55,14 +55,14 @@ export const Scene7CTA: React.FC = () => {
           transform: `translateY(${wordmarkY}px)`,
         }}
       >
-        <Wordmark size={100} />
+        <Wordmark size={114} />
       </div>
 
       <div
         style={{
           fontFamily: PRETENDARD,
           fontWeight: 600,
-          fontSize: 26,
+          fontSize: 29,
           letterSpacing: 2,
           color: MUTED,
           opacity: chipOpacity,
@@ -72,7 +72,7 @@ export const Scene7CTA: React.FC = () => {
       </div>
 
       <div style={{ opacity: chipOpacity, marginTop: 6 }}>
-        <Chip fontSize={28}>프로필 링크에서 신청 가능합니다</Chip>
+        <Chip fontSize={31}>프로필 링크에서 신청 가능합니다</Chip>
       </div>
 
       <div
@@ -80,7 +80,7 @@ export const Scene7CTA: React.FC = () => {
           marginTop: 24,
           fontFamily: PRETENDARD,
           fontWeight: 800,
-          fontSize: 30,
+          fontSize: 34,
           color: PAPER,
           opacity: lineOpacity,
           textAlign: "center",
@@ -101,7 +101,7 @@ export const Scene7CTA: React.FC = () => {
           justifyContent: "space-between",
           fontFamily: PRETENDARD,
           fontWeight: 500,
-          fontSize: 20,
+          fontSize: 22,
           letterSpacing: 1,
           color: MUTED,
           opacity: footerOpacity,

@@ -11,7 +11,10 @@ const PRETENDARD_WEIGHTS: Record<string, number> = {
 };
 
 const loadFace = (family: string, url: string, weight?: string) => {
-  const handle = delayRender(`Loading font ${family} ${weight ?? ""}`);
+  const handle = delayRender(`Loading font ${family} ${weight ?? ""}`, {
+    timeoutInMilliseconds: 30000,
+    retries: 3,
+  });
   const face = new FontFace(family, `url(${url})`, weight ? { weight } : {});
   face
     .load()

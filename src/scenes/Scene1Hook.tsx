@@ -26,7 +26,7 @@ export const Scene1Hook: React.FC = () => {
   return (
     <AbsoluteFill style={{ background: VOID, alignItems: "center", justifyContent: "center" }}>
       <XMark
-        size={420}
+        size={460}
         style={{
           transform: `scale(${markScale})`,
           opacity: markOpacity,
